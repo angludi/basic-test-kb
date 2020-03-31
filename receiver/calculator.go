@@ -15,14 +15,14 @@ type Calc struct {
 
 func (c *Calc) Sum() {
 	total := c.X + c.Y
-	fmt.Println("1. Sum X & Y")
+	fmt.Println("Sum X & Y")
 	fmt.Printf("Input: %d, %d\n", c.X, c.Y)
 	fmt.Println("Output:", total)
 }
 
 func (c *Calc) Multiply() {
 	total := c.X * c.Y
-	fmt.Println("2. Multiply X & Y")
+	fmt.Println("Multiply X & Y")
 	fmt.Printf("Input: %d, %d\n", c.X, c.Y)
 	fmt.Println("Output:", total)
 }

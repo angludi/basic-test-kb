@@ -11,7 +11,7 @@ func main() {
 	input := &receiver.Calc{
 		X: 1,
 		Y: 2,
-		N: 4,
+		N: 10,
 	}
 
 	sumCommand := &command.SumCommand{Calc: input}
