@@ -1,7 +1,7 @@
 package invoker
 
 import (
-	"github.com/angludi/command-pattern/command"
+	"command-pattern/command"
 )
 
 type Process struct {

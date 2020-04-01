@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/angludi/command-pattern/receiver"
+	"command-pattern/receiver"
 )
 
 type FibonacciCommand struct {
