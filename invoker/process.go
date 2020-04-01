@@ -1,7 +1,7 @@
 package invoker
 
 import (
-	"github.com/angludi/tech-test-kb/command"
+	"github.com/angludi/command-pattern/command"
 )
 
 type Process struct {

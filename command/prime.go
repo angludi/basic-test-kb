@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/angludi/tech-test-kb/receiver"
+	"github.com/angludi/command-pattern/receiver"
 )
 
 type PrimeCommand struct {

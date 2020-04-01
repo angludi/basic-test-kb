@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/angludi/tech-test-kb/command"
-	"github.com/angludi/tech-test-kb/receiver"
+	"github.com/angludi/command-pattern/command"
+	"github.com/angludi/command-pattern/receiver"
 )
 
 func main() {
