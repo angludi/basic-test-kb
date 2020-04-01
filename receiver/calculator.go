@@ -15,14 +15,14 @@ type Calc struct {
 
 func (c *Calc) Sum() {
 	total := c.X + c.Y
-	fmt.Println("Sum X & Y")
+	fmt.Println("> Sum X & Y")
 	fmt.Printf("Input: %d, %d\n", c.X, c.Y)
 	fmt.Println("Output:", total)
 }
 
 func (c *Calc) Multiply() {
 	total := c.X * c.Y
-	fmt.Println("Multiply X & Y")
+	fmt.Println("> Multiply X & Y")
 	fmt.Printf("Input: %d, %d\n", c.X, c.Y)
 	fmt.Println("Output:", total)
 }
@@ -42,7 +42,7 @@ func (c *Calc) Prime() {
 		number += 1
 	}
 
-	fmt.Println("First N Prime Number")
+	fmt.Println("> First N Prime Number")
 	fmt.Println("Input:", c.N)
 	fmt.Println("Output:", JoinSlice(prime, ","))
 }
@@ -53,7 +53,7 @@ func (c *Calc) Fibonacci() {
 		fibonacci = append(fibonacci, FibonacciLoop(i))
 	}
 
-	fmt.Println("First N Fibonacci Sequence")
+	fmt.Println("> First N Fibonacci Sequence")
 	fmt.Println("Input:", c.N)
 	fmt.Println("Output:", JoinSlice(fibonacci, ","))
 }
