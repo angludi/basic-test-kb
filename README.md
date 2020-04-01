@@ -1,3 +1,3 @@
 # Command Pattern
 
-Just run `go run main.go`
+Download and run `go run main.go`
