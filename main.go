@@ -8,12 +8,6 @@ import (
 )
 
 func main() {
-	// input := &receiver.Calc{
-	// 	X: 1,
-	// 	Y: 2,
-	// 	N: 4,
-	// }
-
 	input := GetInput()
 
 	sumCommand := &command.SumCommand{Calc: input}
